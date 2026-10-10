@@ -11,10 +11,12 @@
   },
   "scripts": {
     "prepare": "mkdir -p .git/hooks && cp .githooks/commit-msg .git/hooks/commit-msg && chmod +x .git/hooks/commit-msg",
-    "commitlint": "commitlint --edit"
+    "commitlint": "commitlint --edit",
+    "changelog": "changelogen"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.2.3",
-    "@commitlint/config-conventional": "^21.2.3"
+    "@commitlint/config-conventional": "^21.2.3",
+    "changelogen": "^0.6.2"
   }
 }
